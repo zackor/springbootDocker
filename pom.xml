@@ -37,7 +37,6 @@
 				</executions>
 				<configuration>
 					<dateFormatTimeZone>${user.timezone}</dateFormatTimeZone>
-					<dotGitDirectory>${project.basedir}/.git</dotGitDirectory>
 					<verbose>true</verbose>
 				</configuration>
 			</plugin>
