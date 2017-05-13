@@ -51,7 +51,7 @@
 				<artifactId>docker-maven-plugin</artifactId>
 				<version>0.4.11</version>
 				<configuration>
-					<imageName>${docker.image.prefix}/${project.artifactId}-${project.version}-${git.commit.id.abbrev}</imageName>
+					<imageName>${docker.image.prefix}/${project.artifactId}:${project.version}:${git.commit.id.abbrev}</imageName>
 					<dockerDirectory>src/main/docker</dockerDirectory>
 					<resources>
 						<resource>
